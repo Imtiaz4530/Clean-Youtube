@@ -1,0 +1,24 @@
+.videos {
+    width: 100%;
+    min-height: 937px;
+    background-color: #1b1b1b;
+    position: absolute;
+}
+
+.mainBox{
+    padding: 10px 35px  !important;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 60px;
+}
+
+.playlistItem{
+    margin-top: 28px;
+    padding: 2px;
+    background-color: #1e272e !important;
+}
+
+.playlistsItems{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}

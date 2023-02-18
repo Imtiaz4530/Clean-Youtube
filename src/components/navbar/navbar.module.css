@@ -1,0 +1,15 @@
+.nav{
+    background: #c00 !important;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0 250px !important;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none !important;
+    color: white !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 30px;
+}

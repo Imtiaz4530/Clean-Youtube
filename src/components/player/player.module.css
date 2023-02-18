@@ -1,0 +1,34 @@
+.playerWrapper {
+    position: relative;
+    padding-top: 56.25% ;/* Player ratio: 100 / (1280 / 720) */
+    background-color: #1e272e;
+    width: 100%;
+    height: 100%;
+}
+  
+.reactPlayer {
+    position: absolute;
+    top: 150px;
+    left: 65px;
+}
+
+/* sidebar */
+
+.sidebar{
+    position: absolute;
+    top: 150px;
+    left: 1340px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    /* background-color: #1e272e !important; */
+    padding: 20px !important;
+    visibility: visible;
+}
+
+.arrowIcon{
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    font-size: 30px !important;
+}

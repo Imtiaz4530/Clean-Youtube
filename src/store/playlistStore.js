@@ -26,9 +26,9 @@ const playlistStore = persist({
             const playlists = await getPlaylist(payload)
             actions.addPlaylist(playlists)
             console.log('API CALL CANCELED');
-            action.addError('')
+            actions.addError('')
         } catch (e) {
-            addError(e?.response?.data?.error?.message || `Something went wrong`)
+            actions.addError(e?.response?.data?.error?.message || `Something went wrong`)
         } finally {
             actions.addLoading(false)
         }

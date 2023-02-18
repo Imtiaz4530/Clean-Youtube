@@ -1,0 +1,23 @@
+.playlistItem{
+    margin:  30px 0px;
+    padding: 30px 20px 30px 20px;
+    background-color: #1e272e !important;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 0 0 8px;
+}
+
+.heartBTN{
+    color: red !important;
+    font-size: 30px !important;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.watchBTN{
+    color: white !important;
+    border: 1px solid white !important;
+}
